@@ -1,9 +1,9 @@
 /*
+
 The Gerani Engine a funny ajax display engine based on jQuery for my Fab Academy Site.
 Pral2a, 2011. hi@pral2a.com
-Source avaible here https://github.com/pral2a/gerani 
-Requires jquery.js
 Creative Commons Attribution-Share Alike 3.0
+
 */
 $(document).ready(function () {
     $.ajaxSetup({
