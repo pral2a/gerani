@@ -1,16 +1,17 @@
 /*
 The Gerani Engine a funny ajax display engine based on jQuery for my Fab Academy Site.
 Pral2a, 2011. hi@pral2a.com
-Source avaible here https://github.com/pral2a/gerani 
 Creative Commons Attribution-Share Alike 3.0
+Source avaible here https://github.com/pral2a/gerani 
 */
 $(document).ready(function () {
     $.ajaxSetup({
         // Disable caching of AJAX responses
         cache: false
     });
-
-    $("#window").draggable();
+	$("#window").delay(1000).queue(function(){ 
+		$(this).draggable();	 
+	});
 	$("#menu").load(parser).load();
     $("#menu").change(engine).change();
 
