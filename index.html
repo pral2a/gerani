@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="content-language" content="en" />
+	<meta name="keywords" content="fab academy, cba, mit, fablab, fabrication, diy, digital, electronics" />
+	<meta name="description" content="Guillem Camprodon Fab Academy Site" />
+	<meta name="author" content="Guillem Camprodon" />
+	<meta name="robots" content="follow,index" />
+	<meta name="generator" content="Gerani-Engine" />
+	<script src="gerani-engine/jquery-1.4.4.min.js"></script>
+	<script src="gerani-engine/jquery-ui-1.8.9.custom.min.js"></script>
+	<script src="gerani-engine/jquery.gerani-engine.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="gerani-engine/style.css"/>
+	<title>FAB ACADEMY - Browser - Guillem Camprodon</title>
+</head>
+<body>
+<div id="window">
+	<div id="header" class="header">
+		<p><span class="big">FAB ACADEMY</span><span class="extra"><a id="goto" href="http://academy.cba.mit.edu/labs/barcelona/guillem.camprodon/content/">GO TO PLAIN BROWSER</a></span></p>
+			<p>Project browser by: <a href="mailto:guillem@pral2a.com">Guillem Camprodon</a></p>
+		</div>
+	<div id="menu">
+		<select id="state" multiple="multiple">
+	 	<option value="">&#x25B4;</option>
+	    <option value="">&#x25CF;</option>
+	    <option value="">&#x25CB;</option>
+	  </select>
+	  <select id="pages" multiple="multiple">
+		<option value="project-title" selected="selected">project title</option>
+		<option value="project-title-2">project title 2</option>
+		<option value="project-title-3">project title 3</option>
+	  </select>
+	   <select id="section" multiple="multiple">
+	    <option selected="selected">all</option>
+	    <option value="intro">intro</option>
+	   	<option value="text">text</option>
+	    <option value="img">images</option>
+	    <option value="code">code</option>
+	  </select>
+	<div class="footer">
+		<p>&#x25CB; To do. &#x25B4; Currently Woking. &#x25CF; Done.</p>
+		<p>Drag to move it.</p>
+		<div class="loadbar"></div>
+	</div>
+	</div>
+	<p>CONTENT URL:</p><p id="url"></p>
+</div>
+<div id="container">
+<div id="title"></div><div id="section-title"></div>
+<div id="content"></div>
+</div>
+</body>
+</html>

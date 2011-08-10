@@ -1,0 +1,225 @@
+/* RESET CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* SHAPING BASICS */
+body {
+	font: 1em 'Courier New', Courier, mono;
+	vertical-align: baseline;
+	min-height: 100%;
+	background: #FFF; 
+	color: #000;	
+	margin: 10px;
+	}
+	
+/* SHAPING THE BROWSER */
+select {
+	margin: 0; 
+	padding: 0;
+	border: 1px solid #000;
+	height: 300px;
+	margin-top: 0px; 
+	margin-right: 0px; 
+	margin-bottom: 0px; 
+	margin-left: 0px;
+	overflow-y: auto; 
+	 }
+form {
+    margin: 0;
+    width: 1%;
+}
+#window {
+	font: 1em 'Helvetica', Arial, San-Serif;
+	background: #FFF;
+	border: 1px solid #000;
+	padding: 10px;
+	width: 500px;
+	overflow: hidden;
+	top: 10px;
+	right: 10px;
+	position: fixed;
+	cursor:move;
+	}
+#menu {
+	height: 340px;
+	}
+#menu, .header {
+	position: relative;
+	}
+#window a, #window a:link, #window a:visited {
+	text-decoration: none;
+	color: #0000FF;
+	}
+#window a:hover, #window a:active {
+	text-decoration: line-through;
+	}
+#window .extra a, #window .extra a:link, #window .extra a:visited {
+	text-decoration: none;
+	color: #FF0000;
+	}
+#window .extra a:hover, #window .extra a:active {
+	text-decoration: line-through;
+	}
+.header {
+	margin: 0 0 5px 0;
+		}
+#footer p{
+	color: #000;
+		}
+#window p .big{
+	font: 1.7em 'Helvetica', Arial, San-Serif;
+	font-weight: bold;
+	color: #000;
+	}
+#window p .extra{
+	font: 1em 'Courier New', Courier, mono;
+	color: #FF0000;
+	text-align: right;
+	right: 10px;
+	position: absolute;
+	}
+#window p{
+	font: 0.7em 'Courier New', Courier, mono;
+	font-weight: normal;
+	color: #0000FF;
+	}
+#window .footer p{
+	color: #000;	
+	}
+#window .footer, #window .header{
+	margin: 0 0 2px 0; 
+	}
+.loadbar {
+	height: 1px;
+	width: 2px;
+	background: #FF0000;
+	border: 0;
+	margin: 3px 0 0 0;
+	}
+/* SHAPING THE CONTENT */
+
+#container{
+	font: 0.8em 'Courier New', Courier, mono;
+	margin: 10px 0 0 10px;
+	width: 555px;
+	}
+#title{
+	font: 4em 'Courier New', Courier, mono;
+	text-transform: uppercase;
+	}
+#section-title{
+	font: 2em 'Courier New', Courier, mono;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+	}
+/* Links */
+a, a:link, a:visited  {
+	text-decoration: none;
+	color: #FF0000;
+	}
+a:hover, a:active  {
+	text-decoration: line-through;
+	color: #FF0000;
+	}
+/* Content Shaping */
+#content img  {
+	margin: 0 3px;
+	}
+#content img{
+	width: 545px;
+	height: auto;
+	border: 1px solid #000;
+	margin: 15px 5px 15px 5px;
+	}	
+#content iframe{
+	border: 1px solid #000;
+	margin: 15px 5px 15px 5px;
+	}	
+#content code  {
+	width: 520px;
+	margin: 10px 5px 10px 5px;
+	color: #0000FF;
+	border: 1px solid #000;
+	display: block;
+	padding: 10px;	
+	overflow-x: auto;
+	}
+#content code c {
+	color: #000000;
+	}
+#content code .highlighter{
+	color: #FF0000;
+	}
+#content code .lowlighter{
+	color: #000000 !important;
+	}		
+#content code .halflighter{
+	color: #0000FF; 
+	}		
+#content h2{
+	font: 1.2em 'Courier New', Courier, mono;
+	text-transform: uppercase;
+	display: block;
+	padding: 0.5em 0 0.1em 0;
+	}
+#content div{
+	margin: 0 0 1.2em 0;
+	}		
+		
+#content p{
+	margin: 0.8em 0;
+	}		
+	
+#content b{
+	font: 1em 'Courier New', Courier, mono;
+	text-transform: uppercase;
+	font-weight: normal;
+	}	
+	
+#content i{
+	font: 1em 'Courier New', Courier, mono;
+	font-style: italic;
+	}	
+	
